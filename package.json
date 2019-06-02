@@ -1,0 +1,30 @@
+{
+  "name": "archillect-fullscreen-slideshow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server/index",
+    "test": "standard --fix --verbose | snazzy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmednuaman/archillect-fullscreen-slideshow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmednuaman/archillect-fullscreen-slideshow/issues"
+  },
+  "homepage": "https://github.com/ahmednuaman/archillect-fullscreen-slideshow#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "snazzy": "^8.0.0",
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^0.19.1"
+  }
+}
